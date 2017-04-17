@@ -1,3 +1,3 @@
 target 'NoResultView' do
-
+    
 end
