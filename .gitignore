@@ -27,5 +27,8 @@ xcshareddata/
 
 
 # 忽略`Pods/`和`Podfile.lock`
+*.xcworkspace
+*.xcscmblueprint
+Pods
 Pods/
 Podfile.lock
