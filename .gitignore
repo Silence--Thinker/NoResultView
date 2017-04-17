@@ -17,8 +17,15 @@ profile
 *.moved-aside
 DerivedData
 .idea/
-*.xcuserstate
-.xcbkptlist
 
-# Pods - for those of you who use CocoaPods
-#Pods
+# 忽略Xcode本地用户配置信息
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+xcshareddata/
+.metadata/
+
+
+# 忽略`Pods/`和`Podfile.lock`
+Pods/
+Podfile.lock
